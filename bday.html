@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Donate Food </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<style>
+  .btn{
+    display: block;
+    width: 74%;
+    margin: 20px auto;
+  }
+  body{
+    font-family: cursive;
+    background-image: url('birthday.jpg');
+            background-repeat: no-repeat;
+            background-attachment:fixed ;
+            background-size: 80% 80%;
+           background-position:center;
+  }
+  label {
+    display: block;
+    margin-bottom: 20px;
+    transform: translateX(-20%);
+    transform: translateY(60%);
+  }
+  form {
+    width:600x ;
+    height:400px;
+    transform: translateX(-80%);
+    transform:translateY(50%);
+  
+  }
+  h1{
+    font-size: 40px;
+    text-align:center;
+    transform:translateY(290%);
+  }
+  a{
+    font-size: large;
+  }
+
+    
+  
+  
+
+</style>
+<body>
+  
+
+
+  <h1>Feed A Orphan On Your Birthday!!!</h1>
+  <form action="donate.html" method="post">
+    <label for="food_type"><b>FOOD TYPE:</b></label>
+    <select name="food_type">
+      <option value="canned_goods">PUFFS</option>
+      <option value="dry_goods">COOL DRINKS</option>
+      <option value="fresh_produce">BIRYANI</option>
+      <option value="meat">SWEETS</option>
+      <option value="dairy">DAIRY</option>
+      <option value="Other">OTHER</option>
+    </select>
+    <br>
+
+    <label for="quantity"><b>QUANTITY:</b></label>
+    <input type="number" name="quantity">
+      <div>
+      <button class="btn" font-align="center" ><a href="donate.html" style="color:white;">DONATE</a></button>
+      </div>
+    </form>
+
+</body>
+ </html>
